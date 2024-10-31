@@ -1,0 +1,9 @@
+nasm -felf64 test.asm 
+ld test.o -o test 
+
+cmake -S . -B build/
+cmake --build build/  
+
+GO into src and type make
+
+232
